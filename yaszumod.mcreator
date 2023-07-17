@@ -640,6 +640,33 @@
           "src/main/resources/assets/yaszumod/models/item/zaniteore.json"
         ]
       }
+    },
+    {
+      "name": "Ulta",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/UltaItem.java",
+          "src/main/resources/assets/yaszumod/models/item/ulta.json"
+        ]
+      }
+    },
+    {
+      "name": "ULTIMA",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultima",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/ultima.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -655,11 +682,12 @@
   ],
   "language_map": {
     "en_us": {
+      "item.yaszumod.ulta": "Ulta",
       "block.test.losrite": "Losrite",
       "item_group.yaszumod.yaszusmod": "Yaszusmod",
       "item.yaszumod.yaszu_pickaxe": "Yaszu Pickaxe",
-      "item.yaszumod.condom": "Condom",
       "item.yaszumod.yaszuite_greatsword": "Yaszuite Greatsword",
+      "item.yaszumod.condom": "Condom",
       "item.yaszumod.yaszuhelmet_helmet": "Yaszu Helmet",
       "item.yaszumod.yaszuhelmet_boots": "Yaszuhelmet Boots",
       "item_group.test.yaszusmod": "Yaszusmod",

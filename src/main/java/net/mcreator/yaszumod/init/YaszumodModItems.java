@@ -18,6 +18,7 @@ import net.mcreator.yaszumod.item.YaszuitecrystalItem;
 import net.mcreator.yaszumod.item.YaszuiteGreatswordItem;
 import net.mcreator.yaszumod.item.YaszuhelmetItem;
 import net.mcreator.yaszumod.item.YaszuPickaxeItem;
+import net.mcreator.yaszumod.item.UltaItem;
 import net.mcreator.yaszumod.item.PortalRadioItem;
 import net.mcreator.yaszumod.item.LosoaItem;
 import net.mcreator.yaszumod.item.LoseriteyesItem;
@@ -54,6 +55,7 @@ public class YaszumodModItems {
 	public static Item ZANITE;
 	public static Item COOKIEDOUGH;
 	public static Item ZANITEORE;
+	public static Item ULTA;
 
 	public static void load() {
 		YASZUHELMET_HELMET = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "yaszuhelmet_helmet"), new YaszuhelmetItem.Helmet());
@@ -91,5 +93,6 @@ public class YaszumodModItems {
 		COOKIEDOUGH = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "cookiedough"), new CookiedoughItem());
 		ZANITEORE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "zaniteore"), new BlockItem(YaszumodModBlocks.ZANITEORE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(YaszumodModTabs.TAB_YASZUSMOD).register(content -> content.accept(ZANITEORE));
+		ULTA = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "ulta"), new UltaItem());
 	}
 }

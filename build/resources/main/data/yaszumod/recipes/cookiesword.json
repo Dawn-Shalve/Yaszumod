@@ -2,25 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
+    "  2",
     " 4 ",
-    "6 8"
+    "6  "
   ],
   "key": {
-    "0": {
-      "item": "yaszumod:ghosteriteitem"
-    },
     "2": {
-      "item": "minecraft:cookie"
+      "item": "yaszumod:zanite"
     },
     "4": {
-      "item": "minecraft:cookie"
+      "item": "yaszumod:zanite"
     },
     "6": {
       "item": "minecraft:stick"
-    },
-    "8": {
-      "item": "yaszumod:ghosteriteitem"
     }
   },
   "result": {
