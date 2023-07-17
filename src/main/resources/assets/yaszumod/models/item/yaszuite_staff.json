@@ -1,0 +1,7 @@
+{
+  "parent": "yaszumod:custom/staff",
+  "textures": {
+    "0": "yaszumod:block/stafftex",
+    "particle": "yaszumod:item/staff"
+  }
+}

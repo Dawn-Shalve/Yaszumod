@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:zanite"
+    },
+    "1": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "2": {
+      "item": "yaszumod:yaszuitecrystal"
+    },
+    "3": {
+      "item": "yaszumod:ghosteriteitem"
+    }
+  },
+  "result": {
+    "item": "yaszumod:ulta",
+    "count": 1
+  }
+}

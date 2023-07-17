@@ -1,0 +1,832 @@
+{
+  "mod_elements": [
+    {
+      "name": "Yaszusmod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszusmod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Losoa",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "losoa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/LosoaItem.java",
+          "src/main/resources/assets/yaszumod/models/item/losoa.json"
+        ]
+      }
+    },
+    {
+      "name": "Yaszuhelmet",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/YaszuhelmetItem.java",
+          "src/main/resources/assets/yaszumod/models/item/yaszuhelmet_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Duck",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/block/duck.json",
+          "src/main/java/net/mcreator/yaszumod/block/DuckBlock.java",
+          "src/main/resources/assets/yaszumod/models/item/duck.json",
+          "src/main/resources/assets/yaszumod/blockstates/duck.json"
+        ]
+      }
+    },
+    {
+      "name": "Condom",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/CondomItem.java",
+          "src/main/resources/assets/yaszumod/models/item/condom.json"
+        ]
+      }
+    },
+    {
+      "name": "CondomPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condom_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/procedures/CondomPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZaneswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zanesword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/procedures/ZaneswordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zanesword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zanesword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/ZaneswordItem.java",
+          "src/main/resources/assets/yaszumod/models/item/zanesword.json"
+        ]
+      }
+    },
+    {
+      "name": "Ghosterite",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghosterite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/worldgen/placed_feature/ghosterite.json",
+          "src/main/resources/assets/yaszumod/blockstates/ghosterite.json",
+          "src/main/resources/data/yaszumod/worldgen/configured_feature/ghosterite.json",
+          "src/main/resources/assets/yaszumod/models/item/ghosterite.json",
+          "src/main/java/net/mcreator/yaszumod/block/GhosteriteBlock.java",
+          "src/main/resources/assets/yaszumod/models/block/ghosterite.json",
+          "src/main/java/net/mcreator/yaszumod/world/features/ores/GhosteriteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Nerdgrass",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nerdgrass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/block/NerdgrassBlock.java",
+          "src/main/resources/assets/yaszumod/models/block/nerdgrass.json",
+          "src/main/java/net/mcreator/yaszumod/world/features/ores/NerdgrassFeature.java",
+          "src/main/resources/assets/yaszumod/blockstates/nerdgrass.json",
+          "src/main/resources/data/yaszumod/worldgen/placed_feature/nerdgrass.json",
+          "src/main/resources/assets/yaszumod/models/item/nerdgrass.json",
+          "src/main/resources/data/yaszumod/worldgen/configured_feature/nerdgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "Ghosteriteitem",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghosteriteitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/ghosteriteitem.json",
+          "src/main/java/net/mcreator/yaszumod/item/GhosteriteitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Condomtrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condomtrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Losoacraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "losoacraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/losoacraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Yaszuhelmrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuhelmrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/yaszuhelmrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cookiesword",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookiesword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/cookiesword.json"
+        ]
+      }
+    },
+    {
+      "name": "God",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/entity/GodEntity.java",
+          "src/main/resources/assets/yaszumod/models/item/god_spawn_egg.json",
+          "src/main/java/net/mcreator/yaszumod/client/renderer/GodRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "YaszuPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszu_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/yaszu_pickaxe.json",
+          "src/main/java/net/mcreator/yaszumod/item/YaszuPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Yaszuite",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/block/YaszuiteBlock.java",
+          "src/main/resources/data/yaszumod/worldgen/placed_feature/yaszuite.json",
+          "src/main/resources/data/yaszumod/worldgen/configured_feature/yaszuite.json",
+          "src/main/java/net/mcreator/yaszumod/world/features/ores/YaszuiteFeature.java",
+          "src/main/resources/assets/yaszumod/models/item/yaszuite.json",
+          "src/main/resources/assets/yaszumod/blockstates/yaszuite.json",
+          "src/main/resources/assets/yaszumod/models/block/yaszuite.json"
+        ]
+      }
+    },
+    {
+      "name": "Alchohol",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alchohol",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Fuckyou",
+      "type": "plant",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cottonplant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/worldgen/placed_feature/cottonplant.json",
+          "src/main/resources/assets/yaszumod/blockstates/cottonplant.json",
+          "src/main/resources/assets/yaszumod/models/block/cottonplant.json",
+          "src/main/java/net/mcreator/yaszumod/block/FuckyouBlock.java",
+          "src/main/java/net/mcreator/yaszumod/world/features/plants/FuckyouFeature.java",
+          "src/main/resources/assets/yaszumod/models/item/cottonplant.json",
+          "src/main/resources/data/yaszumod/worldgen/configured_feature/cottonplant.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalRadio",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_radio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/PortalRadioItem.java",
+          "src/main/resources/assets/yaszumod/models/item/portal_radio.json"
+        ]
+      }
+    },
+    {
+      "name": "Yaszuitecrystal",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuitecrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/yaszuitecrystal.json",
+          "src/main/java/net/mcreator/yaszumod/item/YaszuitecrystalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Yaszupick",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszupick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/yaszupick.json"
+        ]
+      }
+    },
+    {
+      "name": "Dildo",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dildo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/block/DildoBlock.java",
+          "src/main/resources/assets/yaszumod/blockstates/dildo.json",
+          "src/main/resources/assets/yaszumod/models/item/dildo.json",
+          "src/main/resources/assets/yaszumod/models/block/dildo.json"
+        ]
+      }
+    },
+    {
+      "name": "Moxxiesad",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moxxiesad",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "YaszuiteGreatswordToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuite_greatsword_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/procedures/YaszuiteGreatswordToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YaszuiteGreatsword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuite_greatsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/yaszuite_greatsword.json",
+          "src/main/java/net/mcreator/yaszumod/item/YaszuiteGreatswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GhosteritePickaxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghosterite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/ghosterite_pickaxe.json",
+          "src/main/java/net/mcreator/yaszumod/item/GhosteritePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Losrite",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "losrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/worldgen/placed_feature/losrite.json",
+          "src/main/resources/assets/yaszumod/blockstates/losrite.json",
+          "src/main/java/net/mcreator/yaszumod/world/features/ores/LosriteFeature.java",
+          "src/main/resources/assets/yaszumod/models/item/losrite.json",
+          "src/main/resources/assets/yaszumod/models/block/losrite.json",
+          "src/main/java/net/mcreator/yaszumod/block/LosriteBlock.java",
+          "src/main/resources/data/yaszumod/worldgen/configured_feature/losrite.json"
+        ]
+      }
+    },
+    {
+      "name": "Ghosteriterecipe1",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghosteriterecipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/ghosteriterecipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Yaszuitepick",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuitepick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/yaszuitepick.json"
+        ]
+      }
+    },
+    {
+      "name": "Yaszugreatswordrecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszugreatswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/yaszugreatswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Yaszuiteadvance",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuiteadvance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/advancements/yaszuiteadvance.json"
+        ]
+      }
+    },
+    {
+      "name": "Getloserite",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "getloserite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/advancements/getloserite.json"
+        ]
+      }
+    },
+    {
+      "name": "Minebomb",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minebomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/block/MinebombBlock.java",
+          "src/main/resources/assets/yaszumod/models/block/minebomb.json",
+          "src/main/resources/assets/yaszumod/models/item/minebomb.json",
+          "src/main/resources/assets/yaszumod/blockstates/minebomb.json"
+        ]
+      }
+    },
+    {
+      "name": "MinebombOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minebomb_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/procedures/MinebombOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mineite",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/world/features/ores/MineiteFeature.java",
+          "src/main/resources/data/yaszumod/worldgen/placed_feature/mineite.json",
+          "src/main/resources/assets/yaszumod/models/block/mineite.json",
+          "src/main/resources/assets/yaszumod/models/item/mineite.json",
+          "src/main/resources/assets/yaszumod/blockstates/mineite.json",
+          "src/main/java/net/mcreator/yaszumod/block/MineiteBlock.java",
+          "src/main/resources/data/yaszumod/worldgen/configured_feature/mineite.json"
+        ]
+      }
+    },
+    {
+      "name": "Loseriteyes",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loseriteyes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/LoseriteyesItem.java",
+          "src/main/resources/assets/yaszumod/models/item/loseriteyes.json"
+        ]
+      }
+    },
+    {
+      "name": "Zanite",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/zanite.json",
+          "src/main/java/net/mcreator/yaszumod/item/ZaniteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cookiedough",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookiedough",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/cookiedough.json",
+          "src/main/java/net/mcreator/yaszumod/item/CookiedoughItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cookietoxanite",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookietoxanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/cookietoxanite.json"
+        ]
+      }
+    },
+    {
+      "name": "Zaniteore",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zaniteore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/block/ZaniteoreBlock.java",
+          "src/main/resources/assets/yaszumod/models/block/zaniteore.json",
+          "src/main/resources/assets/yaszumod/blockstates/zaniteore.json",
+          "src/main/resources/assets/yaszumod/models/item/zaniteore.json"
+        ]
+      }
+    },
+    {
+      "name": "Ulta",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/item/UltaItem.java",
+          "src/main/resources/assets/yaszumod/models/item/ulta.json"
+        ]
+      }
+    },
+    {
+      "name": "ULTIMA",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultima",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yaszumod/recipes/ultima.json"
+        ]
+      }
+    },
+    {
+      "name": "Bigbrain",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigbrain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/enchantment/BigbrainEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "YaszuiteStaffRightclicked",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "yaszuite_staff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/procedures/YaszuiteStaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YaszuiteStaff",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuite_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/yaszuite_staff.json",
+          "src/main/java/net/mcreator/yaszumod/item/YaszuiteStaffItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "portaldiscmusic",
+      "files": [
+        "portal"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.yaszumod.ulta": "Ulta",
+      "block.test.losrite": "Losrite",
+      "item_group.yaszumod.yaszusmod": "Yaszusmod",
+      "item.yaszumod.yaszu_pickaxe": "Yaszu Pickaxe",
+      "item.yaszumod.yaszuite_greatsword": "Yaszuite Greatsword",
+      "item.yaszumod.condom": "Condom",
+      "item.yaszumod.yaszuhelmet_helmet": "Yaszu Helmet",
+      "item.yaszumod.yaszuhelmet_boots": "Yaszuhelmet Boots",
+      "item_group.test.yaszusmod": "Yaszusmod",
+      "block.test.nerdgrass": "Nerdgrass",
+      "advancements.getloserite.descr": "MAN WHY DID YOU GET THIS",
+      "item.test.yaszuitecrystal": "Yaszuitecrystal",
+      "item.yaszumod.yaszuitecrystal": "Yaszuitecrystal",
+      "entity.test.god": "God",
+      "item.test.yaszuhelmet_leggings": "Yaszuhelmet Leggings",
+      "item.test.ghosteriteitem": "Ghosteriteitem",
+      "item.test.yaszuhelmet_helmet": "Yaszu Helmet",
+      "block.yaszumod.dildo": "Dildo",
+      "item.yaszumod.loseriteyes": "Loseriteyes",
+      "item.minecraft.tipped_arrow.effect.alchohol": "Arrow of Alchohol",
+      "item.test.portal_radio": "Portal Radio",
+      "block.yaszumod.ghosterite": "Ghosterite",
+      "item.minecraft.splash_potion.effect.alchohol": "Splash Potion of Alchohol",
+      "block.yaszumod.yaszuite": "Yaszuite",
+      "item.test.yaszuhelmet_boots": "Yaszuhelmet Boots",
+      "advancements.yaszuiteadvance.descr": "man, this is so a self insert",
+      "block.test.mineite": "Mineite",
+      "item.yaszumod.portal_radio.desc": "YESSSS",
+      "item.yaszumod.yaszuite_staff": "Yaszuite Staff",
+      "item.minecraft.potion.effect.alchohol": "Potion of Alchohol",
+      "item.yaszumod.portal_radio": "Portal Radio",
+      "block.test.duck": "Duck",
+      "entity.yaszumod.god": "God",
+      "item.yaszumod.god_spawn_egg": "God Spawn Egg",
+      "item.test.yaszuhelmet_chestplate": "Yaszuhelmet Chestplate",
+      "block.yaszumod.cottonplant": "Fuckyou",
+      "item.test.god_spawn_egg": "God Spawn Egg",
+      "item.test.yaszu_pickaxe": "Yaszu Pickaxe",
+      "item.yaszumod.cookiedough": "Cookiedough",
+      "advancements.yaszuiteadvance.title": "Yaszuiteadvance",
+      "item.yaszumod.yaszuhelmet_chestplate": "Yaszuhelmet Chestplate",
+      "block.test.ghosterite": "Ghosterite",
+      "block.yaszumod.nerdgrass": "Nerdgrass",
+      "item.test.losoa": "Losoa",
+      "block.test.yaszuite": "Yaszuite",
+      "block.test.minebomb": "Minebomb",
+      "item.yaszumod.ghosteriteitem": "Ghosteriteitem",
+      "block.yaszumod.minebomb": "Minebomb",
+      "item.test.ghosterite_pickaxe": "Ghosterite Pickaxe",
+      "block.yaszumod.duck": "Duck",
+      "item.minecraft.lingering_potion.effect.alchohol": "Lingering Potion of Alchohol",
+      "advancements.getloserite.title": "Getloserite",
+      "item.test.zanesword": "Zanesword",
+      "subtitles.portaldiscmusic": "",
+      "item.yaszumod.zanesword": "Zanesword",
+      "item.test.yaszuite_greatsword": "Yaszuite Greatsword",
+      "block.yaszumod.mineite": "Mineite",
+      "item.yaszumod.yaszuhelmet_leggings": "Yaszuhelmet Leggings",
+      "block.test.cottonplant": "Fuckyou",
+      "item.yaszumod.losoa": "Losoa",
+      "item.test.condom": "Condom",
+      "enchantment.yaszumod.bigbrain": "Bigbrain",
+      "item.yaszumod.ghosterite_pickaxe": "Ghosterite Pickaxe",
+      "block.yaszumod.losrite": "Losrite",
+      "item.test.portal_radio.desc": "YESSSS",
+      "block.yaszumod.zaniteore": "Zaniteore",
+      "block.test.dildo": "Dildo",
+      "item.yaszumod.zanite": "Zanite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "yaszumod",
+    "modName": "Yaszumod",
+    "version": "1.0.0",
+    "author": "yaszu,losoa,1nZ4ne,GhostboyGamer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.yaszumod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

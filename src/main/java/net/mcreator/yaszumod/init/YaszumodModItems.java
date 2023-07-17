@@ -15,6 +15,7 @@ import net.minecraft.core.Registry;
 import net.mcreator.yaszumod.item.ZaniteItem;
 import net.mcreator.yaszumod.item.ZaneswordItem;
 import net.mcreator.yaszumod.item.YaszuitecrystalItem;
+import net.mcreator.yaszumod.item.YaszuiteStaffItem;
 import net.mcreator.yaszumod.item.YaszuiteGreatswordItem;
 import net.mcreator.yaszumod.item.YaszuhelmetItem;
 import net.mcreator.yaszumod.item.YaszuPickaxeItem;
@@ -56,6 +57,7 @@ public class YaszumodModItems {
 	public static Item COOKIEDOUGH;
 	public static Item ZANITEORE;
 	public static Item ULTA;
+	public static Item YASZUITE_STAFF;
 
 	public static void load() {
 		YASZUHELMET_HELMET = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "yaszuhelmet_helmet"), new YaszuhelmetItem.Helmet());
@@ -94,5 +96,6 @@ public class YaszumodModItems {
 		ZANITEORE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "zaniteore"), new BlockItem(YaszumodModBlocks.ZANITEORE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(YaszumodModTabs.TAB_YASZUSMOD).register(content -> content.accept(ZANITEORE));
 		ULTA = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "ulta"), new UltaItem());
+		YASZUITE_STAFF = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(YaszumodMod.MODID, "yaszuite_staff"), new YaszuiteStaffItem());
 	}
 }

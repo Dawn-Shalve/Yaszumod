@@ -667,6 +667,32 @@
           "src/main/resources/data/yaszumod/recipes/ultima.json"
         ]
       }
+    },
+    {
+      "name": "Bigbrain",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigbrain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yaszumod/enchantment/BigbrainEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "YaszuiteStaff",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaszuite_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yaszumod/models/item/yaszuite_staff.json",
+          "src/main/java/net/mcreator/yaszumod/item/YaszuiteStaffItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -710,6 +736,7 @@
       "advancements.yaszuiteadvance.descr": "man, this is so a self insert",
       "block.test.mineite": "Mineite",
       "item.yaszumod.portal_radio.desc": "YESSSS",
+      "item.yaszumod.yaszuite_staff": "Yaszuite Staff",
       "item.minecraft.potion.effect.alchohol": "Potion of Alchohol",
       "item.yaszumod.portal_radio": "Portal Radio",
       "block.test.duck": "Duck",
@@ -742,6 +769,7 @@
       "block.test.cottonplant": "Fuckyou",
       "item.yaszumod.losoa": "Losoa",
       "item.test.condom": "Condom",
+      "enchantment.yaszumod.bigbrain": "Bigbrain",
       "item.yaszumod.ghosterite_pickaxe": "Ghosterite Pickaxe",
       "block.yaszumod.losrite": "Losrite",
       "item.test.portal_radio.desc": "YESSSS",
