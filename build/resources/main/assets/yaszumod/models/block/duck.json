@@ -1,0 +1,9 @@
+{
+  "parent": "yaszumod:custom/duck",
+  "textures": {
+    "all": "yaszumod:block/duckico",
+    "particle": "yaszumod:block/duckico",
+    "0": "yaszumod:block/ducktex"
+  },
+  "render_type": "solid"
+}

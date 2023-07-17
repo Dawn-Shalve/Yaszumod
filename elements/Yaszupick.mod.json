@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Yaszuitecrystal"
+      },
+      {
+        "value": "CUSTOM:Yaszuitecrystal"
+      },
+      {
+        "value": "CUSTOM:Yaszuitecrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nerdgrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nerdgrass"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YaszuPickaxe"
+    },
+    "name": "yaszupick",
+    "namespace": "mod"
+  }
+}

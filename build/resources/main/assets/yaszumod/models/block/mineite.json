@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yaszumod:block/mineitetex",
+    "up": "yaszumod:block/mineitetex",
+    "north": "yaszumod:block/mineitetex",
+    "east": "yaszumod:block/mineitetex",
+    "south": "yaszumod:block/mineitetex",
+    "west": "yaszumod:block/mineitetex",
+    "particle": "yaszumod:block/mineitetex"
+  },
+  "render_type": "solid"
+}

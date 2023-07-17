@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yaszumod:block/ghosttex",
+    "up": "yaszumod:block/ghosttex",
+    "north": "yaszumod:block/ghosttex",
+    "east": "yaszumod:block/ghosttex",
+    "south": "yaszumod:block/ghosttex",
+    "west": "yaszumod:block/ghosttex",
+    "particle": "yaszumod:block/ghosttex"
+  },
+  "render_type": "solid"
+}

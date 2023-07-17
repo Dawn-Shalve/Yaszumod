@@ -1,0 +1,7 @@
+{
+  "parent": "yaszumod:custom/mage",
+  "textures": {
+    "0": "yaszumod:block/mage",
+    "particle": "yaszumod:item/sadboi"
+  }
+}

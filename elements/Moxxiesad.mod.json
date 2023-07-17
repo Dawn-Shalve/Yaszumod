@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "wall.png",
+    "width": 64,
+    "height": 16,
+    "title": "Moxxiesad",
+    "author": "Vivziepop"
+  }
+}

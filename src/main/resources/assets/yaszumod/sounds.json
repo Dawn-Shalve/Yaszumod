@@ -1,0 +1,11 @@
+{
+  "portaldiscmusic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "yaszumod:portal",
+        "stream": true
+      }
+    ]
+  }
+}

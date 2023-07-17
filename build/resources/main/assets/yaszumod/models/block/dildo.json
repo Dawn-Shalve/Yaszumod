@@ -1,0 +1,9 @@
+{
+  "parent": "yaszumod:custom/dildo",
+  "textures": {
+    "all": "yaszumod:block/dildo",
+    "particle": "yaszumod:block/dildo",
+    "0": "yaszumod:block/dildotex"
+  },
+  "render_type": "solid"
+}

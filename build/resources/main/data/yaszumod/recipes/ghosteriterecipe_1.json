@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:ghosteriteitem"
+    },
+    "1": {
+      "item": "yaszumod:ghosteriteitem"
+    },
+    "2": {
+      "item": "yaszumod:ghosteriteitem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "yaszumod:ghosterite_pickaxe",
+    "count": 1
+  }
+}

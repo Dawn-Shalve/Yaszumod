@@ -1,0 +1,7 @@
+{
+  "parent": "yaszumod:custom/greatsword",
+  "textures": {
+    "0": "yaszumod:block/greatswordtex",
+    "particle": "yaszumod:item/greatswordico"
+  }
+}

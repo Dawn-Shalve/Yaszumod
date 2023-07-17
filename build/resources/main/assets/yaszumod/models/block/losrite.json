@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yaszumod:block/loseriteeee",
+    "up": "yaszumod:block/loseriteeee",
+    "north": "yaszumod:block/loseriteeee",
+    "east": "yaszumod:block/loseriteeee",
+    "south": "yaszumod:block/loseriteeee",
+    "west": "yaszumod:block/loseriteeee",
+    "particle": "yaszumod:block/loseriteeee"
+  },
+  "render_type": "solid"
+}

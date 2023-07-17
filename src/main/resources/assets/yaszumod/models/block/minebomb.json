@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yaszumod:block/minebomb",
+    "up": "yaszumod:block/minebomb",
+    "north": "yaszumod:block/minebomb",
+    "east": "yaszumod:block/minebomb",
+    "south": "yaszumod:block/minebomb",
+    "west": "yaszumod:block/minebomb",
+    "particle": "yaszumod:block/minebomb"
+  },
+  "render_type": "solid"
+}

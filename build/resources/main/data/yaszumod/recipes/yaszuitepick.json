@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:yaszuitecrystal"
+    },
+    "1": {
+      "item": "yaszumod:yaszuitecrystal"
+    },
+    "2": {
+      "item": "yaszumod:yaszuitecrystal"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "yaszumod:yaszu_pickaxe",
+    "count": 1
+  }
+}

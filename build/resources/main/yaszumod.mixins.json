@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.yaszumod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"YaszumodModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

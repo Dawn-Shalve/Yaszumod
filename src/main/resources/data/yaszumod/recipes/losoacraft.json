@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "yaszumod:nerdgrass"
+    },
+    "4": {
+      "item": "yaszumod:nerdgrass"
+    },
+    "6": {
+      "item": "yaszumod:ghosterite"
+    },
+    "7": {
+      "item": "yaszumod:ghosterite"
+    },
+    "8": {
+      "item": "yaszumod:ghosterite"
+    }
+  },
+  "result": {
+    "item": "yaszumod:losoa",
+    "count": 1
+  }
+}

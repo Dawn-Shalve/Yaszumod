@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Portal Radio",
+    "texture": "portaldisk",
+    "description": "YESSSS",
+    "creativeTab": {
+      "value": "CUSTOM:Yaszusmod"
+    },
+    "specialInfo": [
+      "help me"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:portaldiscmusic"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
