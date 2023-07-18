@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.client.renderer.RenderType;
 
+import net.mcreator.yaszumod.init.YaszumodModItems;
 import net.mcreator.yaszumod.init.YaszumodModBlocks;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -36,7 +37,7 @@ public class FuckyouBlock extends FlowerBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(YaszumodModItems.COTTON));
 	}
 
 	@Environment(EnvType.CLIENT)

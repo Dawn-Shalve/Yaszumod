@@ -61,7 +61,7 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Cotton"
     },
     "dropAmount": 1,
     "forceTicking": false,

@@ -12,6 +12,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.yaszumod.world.features.plants.RubbersaplinFeature;
 import net.mcreator.yaszumod.world.features.plants.FuckyouFeature;
 import net.mcreator.yaszumod.world.features.ores.YaszuiteFeature;
 import net.mcreator.yaszumod.world.features.ores.NerdgrassFeature;
@@ -33,6 +34,7 @@ public class YaszumodModFeatures {
 		register("cottonplant", new FuckyouFeature(), FuckyouFeature.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 		register("losrite", new LosriteFeature(), LosriteFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("mineite", new MineiteFeature(), MineiteFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("rubbersaplin", new RubbersaplinFeature(), RubbersaplinFeature.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

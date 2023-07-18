@@ -18,6 +18,9 @@
     ],
     "client": [
       "net.mcreator.yaszumod.ClientInit"
+    ],
+    "terrablender": [
+      "net.mcreator.yaszumod.TerraBlenderInit"
     ]
   },
   "depends": {

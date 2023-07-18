@@ -8,7 +8,7 @@
     "name": "Yaszu Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Yaszusmod"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 1,

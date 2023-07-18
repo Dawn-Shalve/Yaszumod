@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:cotton"
+    },
+    "1": {
+      "item": "yaszumod:cotton"
+    },
+    "2": {
+      "item": "yaszumod:cotton"
+    },
+    "3": {
+      "item": "yaszumod:cotton"
+    },
+    "5": {
+      "item": "yaszumod:cotton"
+    }
+  },
+  "result": {
+    "item": "yaszumod:cotton_armor_helmet",
+    "count": 1
+  }
+}

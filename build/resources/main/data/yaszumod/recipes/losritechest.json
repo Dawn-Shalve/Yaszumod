@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "2": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "3": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "4": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "5": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "6": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "7": {
+      "item": "yaszumod:loseriteyes"
+    },
+    "8": {
+      "item": "yaszumod:loseriteyes"
+    }
+  },
+  "result": {
+    "item": "yaszumod:losritearmor_chestplate",
+    "count": 1
+  }
+}

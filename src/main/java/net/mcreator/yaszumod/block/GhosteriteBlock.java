@@ -11,7 +11,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 
-import net.mcreator.yaszumod.init.YaszumodModItems;
 import net.mcreator.yaszumod.init.YaszumodModBlocks;
 
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -38,7 +37,7 @@ public class GhosteriteBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(YaszumodModItems.GHOSTERITEITEM));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Environment(EnvType.CLIENT)

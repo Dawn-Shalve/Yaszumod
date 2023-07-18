@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:steel"
+    },
+    "1": {
+      "item": "yaszumod:steel"
+    },
+    "2": {
+      "item": "yaszumod:steel"
+    },
+    "3": {
+      "item": "yaszumod:steel"
+    },
+    "5": {
+      "item": "yaszumod:steel"
+    },
+    "6": {
+      "item": "yaszumod:steel"
+    },
+    "8": {
+      "item": "yaszumod:steel"
+    }
+  },
+  "result": {
+    "item": "yaszumod:steelarmor_leggings",
+    "count": 1
+  }
+}

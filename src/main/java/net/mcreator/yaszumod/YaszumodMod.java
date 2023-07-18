@@ -26,6 +26,7 @@ import net.mcreator.yaszumod.init.YaszumodModFeatures;
 import net.mcreator.yaszumod.init.YaszumodModEntities;
 import net.mcreator.yaszumod.init.YaszumodModEnchantments;
 import net.mcreator.yaszumod.init.YaszumodModBlocks;
+import net.mcreator.yaszumod.init.YaszumodModBiomes;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -46,6 +47,7 @@ public class YaszumodMod implements ModInitializer {
 		YaszumodModBlocks.load();
 		YaszumodModItems.load();
 
+		YaszumodModBiomes.load();
 		YaszumodModFeatures.load();
 		YaszumodModPaintings.load();
 		YaszumodModProcedures.load();

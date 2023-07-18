@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yaszumod:block/nerdleavestex",
+    "up": "yaszumod:block/nerdleavestex",
+    "north": "yaszumod:block/nerdleavestex",
+    "east": "yaszumod:block/nerdleavestex",
+    "south": "yaszumod:block/nerdleavestex",
+    "west": "yaszumod:block/nerdleavestex",
+    "particle": "yaszumod:block/nerdleavestex"
+  },
+  "render_type": "solid"
+}

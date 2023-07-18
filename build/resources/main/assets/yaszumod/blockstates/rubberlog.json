@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "yaszumod:block/rubberlog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "yaszumod:block/rubberlog"
+    },
+    "axis=z": {
+      "model": "yaszumod:block/rubberlog",
+      "x": 90
+    }
+  }
+}

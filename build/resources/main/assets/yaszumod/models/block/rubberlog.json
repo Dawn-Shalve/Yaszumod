@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yaszumod:block/rubberlog2",
+    "up": "yaszumod:block/rubberlog2",
+    "north": "yaszumod:block/rubberlogtex",
+    "east": "yaszumod:block/rubberlogtex",
+    "south": "yaszumod:block/rubberlogtex",
+    "west": "yaszumod:block/rubberlogtex",
+    "particle": "yaszumod:block/rubberlog2"
+  },
+  "render_type": "solid"
+}

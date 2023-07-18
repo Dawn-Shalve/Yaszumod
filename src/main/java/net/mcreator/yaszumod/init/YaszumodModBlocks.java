@@ -11,7 +11,11 @@ import net.minecraft.core.Registry;
 
 import net.mcreator.yaszumod.block.ZaniteoreBlock;
 import net.mcreator.yaszumod.block.YaszuiteBlock;
+import net.mcreator.yaszumod.block.RubbersaplinBlock;
+import net.mcreator.yaszumod.block.RubberlogBlock;
+import net.mcreator.yaszumod.block.NerdstoneBlock;
 import net.mcreator.yaszumod.block.NerdgrassBlock;
+import net.mcreator.yaszumod.block.NerdLeavesBlock;
 import net.mcreator.yaszumod.block.MineiteBlock;
 import net.mcreator.yaszumod.block.MinebombBlock;
 import net.mcreator.yaszumod.block.LosriteBlock;
@@ -32,6 +36,10 @@ public class YaszumodModBlocks {
 	public static Block MINEBOMB;
 	public static Block MINEITE;
 	public static Block ZANITEORE;
+	public static Block NERDSTONE;
+	public static Block NERD_LEAVES;
+	public static Block RUBBERLOG;
+	public static Block RUBBERSAPLIN;
 
 	public static void load() {
 		DUCK = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "duck"), new DuckBlock());
@@ -44,6 +52,10 @@ public class YaszumodModBlocks {
 		MINEBOMB = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "minebomb"), new MinebombBlock());
 		MINEITE = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "mineite"), new MineiteBlock());
 		ZANITEORE = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "zaniteore"), new ZaniteoreBlock());
+		NERDSTONE = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "nerdstone"), new NerdstoneBlock());
+		NERD_LEAVES = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "nerd_leaves"), new NerdLeavesBlock());
+		RUBBERLOG = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "rubberlog"), new RubberlogBlock());
+		RUBBERSAPLIN = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(YaszumodMod.MODID, "rubbersaplin"), new RubbersaplinBlock());
 	}
 
 	public static void clientLoad() {
@@ -57,5 +69,9 @@ public class YaszumodModBlocks {
 		MinebombBlock.clientInit();
 		MineiteBlock.clientInit();
 		ZaniteoreBlock.clientInit();
+		NerdstoneBlock.clientInit();
+		NerdLeavesBlock.clientInit();
+		RubberlogBlock.clientInit();
+		RubbersaplinBlock.clientInit();
 	}
 }

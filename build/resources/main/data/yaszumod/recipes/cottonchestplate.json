@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "yaszumod:cotton"
+    },
+    "2": {
+      "item": "yaszumod:cotton"
+    },
+    "3": {
+      "item": "yaszumod:cotton"
+    },
+    "4": {
+      "item": "yaszumod:cotton"
+    },
+    "5": {
+      "item": "yaszumod:cotton"
+    },
+    "6": {
+      "item": "yaszumod:cotton"
+    },
+    "7": {
+      "item": "yaszumod:cotton"
+    },
+    "8": {
+      "item": "yaszumod:cotton"
+    }
+  },
+  "result": {
+    "item": "yaszumod:cotton_armor_chestplate",
+    "count": 1
+  }
+}
